@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li class="hideOnMobile">home</li>
+        <li class="hideOnMobile">about</li>
+        <li class="hideOnMobile">contact</li>
+        <li id="icon" onclick="openNav()"><i class="bx bx-menu"></i></li>
+      </ul>
+    </nav>
+    <aside>
+      <ul>
+        <button onclick="closeNav()">close</button>
+        <li class="hideOnMobile">home</li>
+        <li class="hideOnMobile">about</li>
+        <li class="hideOnMobile">contact</li>
+      </ul>
+    </aside>
+  </body>
+  <script src="./script.js"></script>
+</html>
